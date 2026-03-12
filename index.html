@@ -7,20 +7,90 @@
 </head>
 <body>
     <header>
-        <h1><u>KEMANI   MOISE</u></h1>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nisi ullam laboriosam et illum placeat natus ab dolores, quae eos.</P>
+        <h1><u>KEMANI MOISE</u></h1>
+        <P>
+            je suis etudiant à l'université de yaoundé .
+        </P><hr>
         <div>
+            <!-- menu de navigation vers les section de ma page -->
             <nav>
+                <h2>menu de navigation</h2>
                 <ul>
-                    <li><a href="">Accueil</a></li>
-                    <li><a href="">A propos</a></li>
-                    <li><a href="">Competences</a></li>
-                    <li><a href="">Parcour</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#competence">Competences</a></li>
+                    <li><a href="#parcour">Parcour</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
+        <hr>
     </header>
-    <textarea name="" id=""></textarea>
+    <section id="apropos">
+        <h2>A propos</h2>
+        <!-- texte qui parle de moi -->
+        <p>
+            Je suis actuellement en premiere année de licence informatique, je me passionne
+            pour la création de logiciels contrètes. <br>Mon parcours académique m'a permis de solidifier mes bases en programmation , notamment en <b>PYTHON</b> ,<b>c</b> et de maitriser les bases de l'outils de versionnage <b>GIT</b> ainsi que la structuration de pages web avec du <b>HTML</b>. <br>Curieux de nature , j'aime explorer 'larchitecture des systémes et relevés des défis techniques complexes, qu'il s'agisse d'optimiser du code ou de comprendre les rouages du matériel informatique.
+        </p>
+        <figure> 
+            <!-- image de moi -->
+            <img src="moi2022.jpg" width="250" height="150" alt="image professionnel de KEMANI">
+            <figcaption></figcaption>
+        </figure>
+        <hr>
+    </section>
+    <section id="competence">
+        <h2>mes competences</h2>
+        <!-- ici je dois liste mes competences n'importe laquelle -->
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>GITHUB</li>
+            <li>CANVAS</li>
+            <li>BUREATIQUE</li>
+            <li>travail en groupe</li>
+            <li>RESOLUTION DES PROBLEMES</li>
+        </ul>
+        <hr>
+    </section>
+    <section id="parcour">
+        <h2>parcour</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>années</th>
+                    <th>formation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025</td>
+                    <td>bureautique</td>
+                </tr>
+                <tr>
+                    <td>2026</td>
+                    <td>developpement web</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </section>
+    <section id="contact">
+        <h2>contact</h2>
+        <fieldset>
+            <legend>informations</legend>
+            <form action="">
+                <label for="name">Nom:</label><input type="text" name="name" id="name"><br></br>2
+                <label for="adresse">adresse email:</label><input type="email" name="adresse" id="adresse"><br><br>
+                <textarea name="" id="" placeholder="laissez un message ici..."></textarea><br><br>
+                <button type="submit">Envoyer</button><br><br>
+                
+            </form>
+        </fieldset>
+        <hr>
+    </section>
+    <footer> portfolio 2026 - portfolio de KEMANI NJAKOU</footer>
 </body>
 </html>
