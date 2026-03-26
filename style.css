@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding-top: 0px;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h6 {
+  color: rgb(196, 136, 6);
+}
+section {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 250px;
+
+  margin-right: 250px;
+  min-height: 500px;
+  border: 1px solid black;
+}
+footer {
+  bottom: 0;
+  display: flex;
+  gap: 50px;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+/* barre de navigation */
+nav {
+  min-height: 110px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titreprincipal {
+  width: 60%;
+}
+.navbar {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+}
+
+.lien {
+  font-size: small;
+  text-decoration: none;
+  color: white;
+}
+.rien {
+  height: 110px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* ma section accueil  */
+.accueil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 1Opx;
+}
+.maphoto {
+  max-width: 1160px;
+  height: 260px;
+  border-radius: 50%;
+}
+
+button {
+  margin: auto;
+  background-color: black;
+  border-radius: 10px;
+  font-size: medium;
+  color: white;
+}
+.kemani {
+  font-size: 5rem;
+  font-family: "playfair", serif;
+}
+.moise {
+  font-size: 5rem;
+  font-family: "playfair", sans-serif;
+  color: rgb(196, 136, 6);
+}
+/* ma section a propos */
+#apropos {
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}
+.listedecote {
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cellule {
+  height: 90px;
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(109, 107, 107);
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.big {
+  font-size: xxx-large;
+}
+/* ma section competences */
+#competence {
+  background-color: black;
+  color: white;
+}
+.competence {
+  display: grid;
+  flex-direction: row;
+
+  gap: 10px;
+  padding: 10px;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+.savoirfaire {
+  border-radius: 5px;
+  border: 1px solid white;
+}
+/* ma section parcours */
+/* ma section contact */
+#contact {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  background-color: rgb(37, 32, 32);
+  border-radius: 5px;
+  width: 100%;
+}
+textarea {
+  background-color: rgb(37, 32, 32);
+  border-radius: 5px;
+  width: 100%;
+}
+.travaillon {
+  font-size: 4rem;
+  color: white;
+}
+.ensemble {
+  font-size: 3rem;
+  color: rgb(196, 136, 6);
+}
+.x {
+  margin-top: 0;
+}
